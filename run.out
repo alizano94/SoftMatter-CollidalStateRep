@@ -1,0 +1,113 @@
+Autoencoder Module Initialized!
+Clustering Module Initialized!
+Representation Module Initialized!
+Dynamics Module Initialized!
+Control Module Initialized!
+Starting clustering.
+Loading features
+Done!
+Performing clustering via HDBSCAN!
+        >>>minimum cluster size: 160
+        >>>minimum smaples: 5
+        >>>epsilon:  0.2
+        >>>metric: euclidean
+        >>>>>>>>>>>>>>>>>>>>>>
+15 clusters identified 
+        (excluding noise)
+            Image Names  labels
+0  V2-T15-41step10s.png      -1
+1   V2-T8-80step10s.png      -1
+2  V4-T27-44step10s.png      11
+3  V1-T21-14step10s.png      -1
+4   V2-T8-97step10s.png      -1
+Output file saved as:
+        /home/lizano/Documents/TangGroup/SAC20/data/raw/cnn/unclassified_raw_data/ae_clusters.csv
+Clustering done!
+Autoencoder Module Initialized!
+Clustering Module Initialized!
+Representation Module Initialized!
+Dynamics Module Initialized!
+Control Module Initialized!
+Creating CNN data set from:
+        /home/lizano/Documents/TangGroup/SAC20/data/raw/cnn/unclassified_raw_data/ae_clusters.csv
+>>>>>Cluster: 11, population: 1394
+train size: 1115 (79%)
+validation size: 139 (9%)
+test size: 140 (10%)
+>>>>>Cluster: 14, population: 1716
+train size: 1372 (79%)
+validation size: 172 (10%)
+test size: 172 (10%)
+>>>>>Cluster: 2, population: 180
+train size: 144 (80%)
+validation size: 18 (10%)
+test size: 18 (10%)
+>>>>>Cluster: 8, population: 594
+train size: 475 (79%)
+validation size: 59 (9%)
+test size: 60 (10%)
+>>>>>Cluster: 12, population: 161
+train size: 128 (79%)
+validation size: 16 (9%)
+test size: 17 (10%)
+>>>>>Cluster: 4, population: 366
+train size: 292 (79%)
+validation size: 37 (10%)
+test size: 37 (10%)
+>>>>>Cluster: 6, population: 200
+train size: 160 (80%)
+validation size: 20 (10%)
+test size: 20 (10%)
+>>>>>Cluster: 0, population: 317
+train size: 253 (79%)
+validation size: 32 (10%)
+test size: 32 (10%)
+>>>>>Cluster: 13, population: 209
+train size: 167 (79%)
+validation size: 21 (10%)
+test size: 21 (10%)
+>>>>>Cluster: 9, population: 297
+train size: 237 (79%)
+validation size: 30 (10%)
+test size: 30 (10%)
+>>>>>Cluster: 1, population: 186
+train size: 148 (79%)
+validation size: 19 (10%)
+test size: 19 (10%)
+>>>>>Cluster: 5, population: 198
+train size: 158 (79%)
+validation size: 20 (10%)
+test size: 20 (10%)
+>>>>>Cluster: 7, population: 198
+train size: 158 (79%)
+validation size: 20 (10%)
+test size: 20 (10%)
+>>>>>Cluster: 3, population: 194
+train size: 155 (79%)
+validation size: 19 (9%)
+test size: 20 (10%)
+>>>>>Cluster: 10, population: 166
+train size: 132 (79%)
+validation size: 17 (10%)
+test size: 17 (10%)
+/home/lizano/envs/sac/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:259: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+Autoencoder Module Initialized!
+Clustering Module Initialized!
+Representation Module Initialized!
+Dynamics Module Initialized!
+Control Module Initialized!
+Perfomring UMAP.
+Loading raw file.
+loaded!
+Starting UMAP.
+Done!
+Saving UMAP file!
+UMAP Done!
+            Image Names       Z_0        Z_1  labels
+0  V2-T15-41step10s.png  5.374677  -2.703977      -1
+1   V2-T8-80step10s.png  1.711364   2.975324      -1
+2  V4-T27-44step10s.png  8.581634 -11.781139      11
+3  V1-T21-14step10s.png  5.277213   2.402870      -1
+4   V2-T8-97step10s.png  0.844926   3.697561      -1
+Found:  16  clusters.
